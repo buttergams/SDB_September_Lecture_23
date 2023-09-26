@@ -1,0 +1,61 @@
+/* This is a comment in CSS */
+/* 'ctrl + /' will also make a comment */
+
+/* 
+These comments
+Can Span
+Multiple Lines
+*/
+
+body {
+    background-color: darkgrey;
+    /* There are 3 major ways to refer to a color;
+        -color keywords
+        -RGB value
+        -hex codes
+    */
+}
+
+p, h1, h2 { /* Select all <p> tags */
+    color: orange; /*change the text color to 'seagreen'*/
+    background-color: dimgray;
+}
+
+/* A '.' selects all classes with the same name. */
+.header {
+    text-align: center;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+/* change a specific tag by selecting an ID. must use a # to select IDs */
+
+#p1 {
+    border-radius: 50px;
+}
+
+#unique {
+    text-decoration: underline overline;
+    border-radius: 25px;
+}
+
+nav .btn {
+    text-shadow: 2px 2px 2px black;
+}
+
+nav > .btn {
+    color:yellow;
+}
+
+a:link {
+    color: darkgreen;
+}
+
+a:visited {
+    color: rgb(242, 88, 4);
+}
+a:hover {
+    color: pink;
+}
