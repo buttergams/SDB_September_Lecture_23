@@ -161,3 +161,17 @@ console.log(days.length);
 /* this is a property of arrays. Properties are things that already belong to an object
 
 */
+
+/* 
+    Special Values
+    - Not all math comes out making sense. Multiplication is hard, thus we have these special values. 
+    - Infinity
+    - NaN
+*/
+
+let inf = 5 / 8;
+console.log(inf); // Infinity
+
+let notANumber = "string" * 317
+console.log(notANumber); // NaN, not a number
+
